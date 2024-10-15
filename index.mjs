@@ -4,6 +4,7 @@ const filePath = './data/example.txt';
 const dirName = path.dirname(filePath);
 console.log('directorio base :', dirName);
 
+
 const baseName = path.basename(filePath, '.txt');
 console.log('Nombre del archivo:', baseName);
 
